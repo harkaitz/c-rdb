@@ -1,6 +1,7 @@
 # RDB (Redis Database)
 
-This library contains utilities for developing apps for redis.
+This library contains some security and validation levels
+to the hiredis library.
 
 ## TODO
 
@@ -8,11 +9,9 @@ Document the stuff.
 
 ## Collaborating
 
-You can collaborate with this project either by making bug reports,
-making pull requests or making a donation.
+For making bug reports, feature requests and donations visit one of the
+following links:
 
-- Bug reports, pull requests: Harkaitz Agirre <harkaitz.aguirre@gmail.com>
-- *Bitcoin* : _1C1ZzDje7vHhF23mxqfcACE8QD4nqxywiV_
-- *Binance* : _bnb194ay2cy83jjp644hdz8vjgjxrj5nmmfkngfnul_
-- *Monero* : _88JP1c94kDEbyddN4NGU574vwXHB6r3FqcFX9twmxBkGNSnf64c5wjE89YaRVUk7vBbdnecWSXJmRhFWUcLcXUTFJVddZti_
+1. [gemini://harkadev.com/oss/](gemini://harkadev.com/oss/)
+2. [https://harkadev.com/oss/](https://harkadev.com/oss/)
 
