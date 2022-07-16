@@ -25,8 +25,10 @@ librdb.a: $(SOURCES) $(HEADERS)
 	$(AR) -crs $@ .b/*.o
 	rm -f .b/*.o
 ## -- license --
+ifneq ($(PREFIX),)
 install: install-license
 install-license: LICENSE
 	mkdir -p $(DESTDIR)$(PREFIX)/share/doc/c-rdb
 	cp LICENSE $(DESTDIR)$(PREFIX)/share/doc/c-rdb
+endif
 ## -- license --
